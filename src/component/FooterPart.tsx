@@ -10,17 +10,17 @@ function FooterPart() {
                      <div className="col-lg-8">
                         <div className="footer_menu">
                            <div className="footer_logo">
-                              <a href="index.html"
+                              <a href="/"
                               ><img src="img/logo.png" alt="#"
                                  /></a>
                            </div>
                            <div className="footer_menu_item">
-                              <a href="index.html">Home</a>
-                              <a href="about.html">About</a>
-                              <a href="product_list.html">Products</a>
+                              <a href="/">Home</a>
+                              <a href="about">About</a>
+                              <a href="/product_list">Products</a>
                               <a href="#">Pages</a>
-                              <a href="blog.html">Blog</a>
-                              <a href="contact.html">Contact</a>
+                              <a href="/blog">Blog</a>
+                              <a href="/contact">Contact</a>
                            </div>
                         </div>
                      </div>

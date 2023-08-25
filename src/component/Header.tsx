@@ -12,7 +12,7 @@ const Header = () => {
                <div className="row align-items-center justify-content-center">
                   <div className="col-lg-12">
                      <nav className="navbar navbar-expand-lg navbar-light">
-                        <a className="navbar-brand" href="index.html">
+                        <a className="navbar-brand" href="/">
                            <img src="img/logo.png" alt="logo" />
                         </a>
                         <button
@@ -82,18 +82,18 @@ const Header = () => {
                                     className="dropdown-menu"
                                     aria-labelledby="navbarDropdown_2"
                                  >
-                                    <a className="dropdown-item" href="login.html">
+                                    <a className="dropdown-item" href="/login">
                                        login
                                     </a>
-                                    <a className="dropdown-item" href="checkout.html"
+                                    <a className="dropdown-item" href="/checkout"
                                     >product checkout</a >
-                                    <a className="dropdown-item" href="cart.html"
+                                    <a className="dropdown-item" href="/cart"
                                     >shopping cart</a   >
                                     <a
                                        className="dropdown-item"
-                                       href="confirmation.html"
+                                       href="/confirmation"
                                     >confirmation</a   >
-                                    <a className="dropdown-item" href="elements.html"
+                                    <a className="dropdown-item" href="/elements"
                                     >elements</a >
                                  </div>
                               </li>
@@ -114,17 +114,17 @@ const Header = () => {
                                     className="dropdown-menu"
                                     aria-labelledby="navbarDropdown_2"
                                  >
-                                    <a className="dropdown-item" href="blog.html">
+                                    <a className="dropdown-item" href="/blog">
                                        blog</a>
                                     <a
                                        className="dropdown-item"
-                                       href="single-blog.html"
+                                       href="/single-blog"
                                     >Single blog</a>
                                  </div>
                               </li>
 
                               <li className="nav-item">
-                                 <a className="nav-link" href="contact.html"
+                                 <a className="nav-link" href="/contact"
                                  >Contact</a >
                               </li>
                            </ul>
@@ -135,7 +135,7 @@ const Header = () => {
                            >
                               <i className="ti-search"></i></a>
 
-                           <a href="cart.html">
+                           <a href="/cart">
                               <i className="flaticon-shopping-cart-black-shape"></i>
                            </a>
                         </div>
